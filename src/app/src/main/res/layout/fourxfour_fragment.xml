@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:text="Hurricane - 121.6 km/h\nTaurus - 114.6 km/h\nDefender - 111.8 km/h\nVulcan - 111.1 km/h\nMudbee - 110.4 km/h\nFury - 107.1 km/h\nHellfire - 104.6 km/h\nRanger - 104 km/h\nRanger OG - 100 km/h\nCarry - 98.9 km/h"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+</LinearLayout>

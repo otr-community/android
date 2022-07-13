@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\layout_fourxfour_fragment.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\layout\\fourxfour_fragment.xml"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/drawable_ic_calculate.xml.flat",
+        "source": "com.android.otrsc.app-main-27:/drawable/ic_calculate.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\layout_others_fragment.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\layout\\others_fragment.xml"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\layout_main.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\layout\\main.xml"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/drawable_ic_car.xml.flat",
+        "source": "com.android.otrsc.app-main-27:/drawable/ic_car.xml"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\layout_vehicles_fragment.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\layout\\vehicles_fragment.xml"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\drawable-xhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\layout_trucks_fragment.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\layout\\trucks_fragment.xml"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\drawable_nav_icon.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\drawable\\nav_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\drawable-xhdpi_default_image.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\drawable-xhdpi\\default_image.png"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.android.otrsc.app-main-27:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\layout_rally_fragment.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\layout\\rally_fragment.xml"
+    },
+    {
+        "merged": "com.android.otrsc.app-merged_res-25:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.android.otrsc.app-main-27:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\layout_calculator_fragment.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\layout\\calculator_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\drawable_ripple.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\drawable\\ripple.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\drawable-xhdpi_calculator.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\drawable-xhdpi\\calculator.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-merged_res-25:\\drawable-xhdpi_car.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\com.android.otrsc.app-main-27:\\drawable-xhdpi\\car.png"
+    }
+]

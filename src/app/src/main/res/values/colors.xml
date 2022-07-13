@@ -1,0 +1,11 @@
+<resources>
+	<color name="colorPrimary">#FFA000</color>
+	<color name="colorPrimaryDark">#FF8F00</color>
+	<color name="colorAccent">#FFA000</color>
+	<color name="colorControlHighlight">#FFE082</color>
+	<color name="colorControlNormal">#FFA000</color>
+	<color name="colorHint">#9E9E9E</color>
+	<color name="colorButtonText">#DD2C00</color>
+	<color name="colorResult">#388E3C</color>
+	<color name="colorUnselectedText">#FFF8E1</color>
+</resources>

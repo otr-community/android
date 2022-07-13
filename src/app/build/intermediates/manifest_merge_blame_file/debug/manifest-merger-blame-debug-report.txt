@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.otrsc"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:4:2-23:16
+12        android:allowBackup="true"
+12-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:5:3-29
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\tiago\.gradle\caches\transforms-3\a668dc7bb17e6199bfb19556914242a3\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@drawable/app_icon"
+15-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:6:3-36
+16        android:label="@string/app_name"
+16-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:7:3-35
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:8:3-34
+19        <activity
+19-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:9:3-19:14
+20            android:name="com.android.otrsc.MainActivity"
+20-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:10:4-32
+21            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+21-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:12:4-97
+22            android:exported="true"
+22-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:14:4-27
+23            android:hardwareAccelerated="true"
+23-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:13:4-38
+24            android:windowSoftInputMode="adjustResize" >
+24-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:11:13-55
+25            <intent-filter>
+25-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:15:4-18:20
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:16:5-57
+26-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:16:13-54
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:17:5-65
+28-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:17:15-62
+29            </intent-filter>
+30        </activity>
+31
+32        <uses-library
+32-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:20:3-22:31
+33            android:name="org.apache.http.legacy"
+33-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:21:4-41
+34            android:required="false" />
+34-->C:\Users\tiago\Desktop\OTRSC\app\src\main\AndroidManifest.xml:22:4-28
+35
+36        <provider
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\tiago\.gradle\caches\transforms-3\ad05a3001abfdb4ecbc74bee4e192844\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+37            android:name="androidx.startup.InitializationProvider"
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\tiago\.gradle\caches\transforms-3\ad05a3001abfdb4ecbc74bee4e192844\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+38            android:authorities="com.android.otrsc.androidx-startup"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\tiago\.gradle\caches\transforms-3\ad05a3001abfdb4ecbc74bee4e192844\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+39            android:exported="false" >
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\tiago\.gradle\caches\transforms-3\ad05a3001abfdb4ecbc74bee4e192844\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+40            <meta-data
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\tiago\.gradle\caches\transforms-3\ad05a3001abfdb4ecbc74bee4e192844\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+41                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\tiago\.gradle\caches\transforms-3\ad05a3001abfdb4ecbc74bee4e192844\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+42                android:value="androidx.startup" />
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\tiago\.gradle\caches\transforms-3\ad05a3001abfdb4ecbc74bee4e192844\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+43            <meta-data
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\tiago\.gradle\caches\transforms-3\bfeafe7ef567e3c3bafc6cad8993c039\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\tiago\.gradle\caches\transforms-3\bfeafe7ef567e3c3bafc6cad8993c039\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+45                android:value="androidx.startup" />
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\tiago\.gradle\caches\transforms-3\bfeafe7ef567e3c3bafc6cad8993c039\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+46        </provider>
+47    </application>
+48
+49</manifest>

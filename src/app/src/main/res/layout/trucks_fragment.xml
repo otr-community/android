@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:text="Titan - 123.2 km/h\nDachsund - 122.4 km/h\nThunder - 115.3 km/h\nUrsus - 114.6 km/h\nMaximus - 114.6 km/h\nKarma - 105.8 km/h\nPayback - 101.1 km/h\nHercules - 99.4 km/h\nSchoolMaster - 98.9 km/h\nZed - 96.7 km/h\nTitanium - 65.6 km/h\nIceBreaker - 65.2 (Water 42) km/h"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+</LinearLayout>
