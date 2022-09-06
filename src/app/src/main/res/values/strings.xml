@@ -1,6 +1,0 @@
-<resources>
-	<string name="app_name" translatable="false">OTR Speed Calculator</string>
-	<string name="etTimeHint">Time taken (secs)</string>
-	<string name="etDistanceHint">Distance (m) (excl. acceleration)</string>
-	<string name="btCalculate">Calculate Speed</string>
-</resources>

@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\layout_about.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\layout\\about.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\drawable_calc.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\drawable\\calc.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\drawable_car.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\drawable\\car.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\layout_settings.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\layout_main.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/layout_settings.xml.flat",
+        "source": "net.tiago.otrsc.app-main-31:/layout/settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\layout_vehicles_fragment.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\layout\\vehicles_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-merged_res-29:\\layout_calculator_fragment.xml.flat",
+        "source": "C:\\Users\\tiago\\.gradle\\daemon\\7.3.3\\net.tiago.otrsc.app-main-31:\\layout\\calculator_fragment.xml"
+    }
+]

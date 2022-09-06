@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeLight" parent="Theme.MaterialComponents.Light">
+        <item name="colorAccent">#1775d1</item>
+        <item name="colorPrimary">#1775d1</item>
+        <item name="colorPrimaryDark">#004a9f</item>
+        <item name="colorControlHighlight">#64b5f6</item>
+        <item name="colorControlNormal">#1775d1</item>
+        <item name="textColor">#000000</item>
+        <item name="backgroundColor">#ffffff</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeLight.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="ThemeLight.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="ThemeDark" parent="Theme.MaterialComponents">
+        <item name="colorAccent">#82b1ff</item>
+        <item name="colorPrimary">#82b1ff</item>
+        <item name="colorPrimaryDark">#4d82cb</item>
+        <item name="colorControlHighlight">#b6e3ff</item>
+        <item name="colorControlNormal">#82b1ff</item>
+        <item name="textColor">#ffffff</item>
+        <item name="backgroundColor">#242424</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

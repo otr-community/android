@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/layout_main.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/layout/main.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/drawable_calc.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/drawable/calc.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/layout_calculator_fragment.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/layout/calculator_fragment.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/layout_settings.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/layout/settings.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/layout_about.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/layout/about.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/layout_vehicles_fragment.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/layout/vehicles_fragment.xml"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "net.tiago.otrsc.app-main-30:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "net.tiago.otrsc.app-merged_res-29:/drawable_car.xml.flat",
+        "source": "net.tiago.otrsc.app-main-30:/drawable/car.xml"
+    }
+]
