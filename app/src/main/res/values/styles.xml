@@ -18,11 +18,11 @@
     <style name="ThemeLight.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
 
     <style name="ThemeDark" parent="Theme.MaterialComponents">
-        <item name="colorAccent">#FF689FFB</item>
-        <item name="colorPrimary">#3F51B5</item>
-        <item name="colorPrimaryDark">#2F41A3</item>
-        <item name="colorControlHighlight">#6FA0BF</item>
-        <item name="colorControlNormal">#689FFB</item>
+        <item name="colorAccent">#4FA3F6</item>
+        <item name="colorPrimary">#1775d1</item>
+        <item name="colorPrimaryDark">#004a9f</item>
+        <item name="colorControlHighlight">#64b5f6</item>
+        <item name="colorControlNormal">#4FA3F6</item>
         <item name="textColor">#ffffff</item>
         <item name="backgroundColor">#242424</item>
         <item name="windowActionBar">false</item>

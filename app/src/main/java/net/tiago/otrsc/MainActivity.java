@@ -12,33 +12,31 @@ import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final Intent i = new Intent();
-    private Toolbar _toolbar;
+    private final Intent mainIntent = new Intent();
+    private Toolbar toolbar;
     private ViewPager vpMain;
-    private BottomNavigationView btMain;
+    private BottomNavigationView bnMain;
     private FgMainFragmentAdapter fgMain;
-    private AlertDialog.Builder upDate;
-    private SharedPreferences showUp;
-    private SharedPreferences themeEng;
+    private AlertDialog.Builder dgUp;
+    private SharedPreferences spDgUpShow;
+    private SharedPreferences spThemeEngine;
 
     @Override
     protected void onCreate(Bundle _savedInstanceState) {
         super.onCreate(_savedInstanceState);
-        themeEng = getSharedPreferences("themeEng", Activity.MODE_PRIVATE);
-        if (themeEng.getString("theme", "").equals("")) {
+        spThemeEngine = getSharedPreferences("themeEng", Activity.MODE_PRIVATE);
+        if (spThemeEngine.getString("theme", "").equals("")) {
             int nightModeFlags = getResources().getConfiguration().uiMode & android.content.res.Configuration.UI_MODE_NIGHT_MASK;
             if (nightModeFlags == android.content.res.Configuration.UI_MODE_NIGHT_YES) {
                 setTheme(R.style.ThemeDark);
@@ -52,19 +50,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initialize() {
-        AppBarLayout _app_bar = findViewById(R.id._app_bar);
-        CoordinatorLayout _coordinator = findViewById(R.id._coordinator);
-        _toolbar = findViewById(R.id._toolbar);
-        setSupportActionBar(_toolbar);
+        toolbar = findViewById(R.id._toolbar);
+        setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        _toolbar.setNavigationOnClickListener(_v -> onBackPressed());
+        toolbar.setNavigationOnClickListener(_v -> onBackPressed());
         vpMain = findViewById(R.id.vpMain);
-        btMain = findViewById(R.id.btMain);
+        bnMain = findViewById(R.id.bnMain);
         fgMain = new FgMainFragmentAdapter(getApplicationContext(), getSupportFragmentManager());
-        upDate = new AlertDialog.Builder(this);
-        showUp = getSharedPreferences("showUp", Activity.MODE_PRIVATE);
-        themeEng = getSharedPreferences("themeEng", Activity.MODE_PRIVATE);
+        dgUp = new AlertDialog.Builder(this);
+        spDgUpShow = getSharedPreferences("showUp", Activity.MODE_PRIVATE);
+        spThemeEngine = getSharedPreferences("themeEng", Activity.MODE_PRIVATE);
 
         vpMain.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -74,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onPageSelected(int _position) {
-                btMain.getMenu().getItem(_position).setChecked(true);
-                switch ((int) _position) {
+                bnMain.getMenu().getItem(_position).setChecked(true);
+                switch (_position) {
                     case ((int) 0): {
                         Objects.requireNonNull(getSupportActionBar()).setTitle(R.string.fragment_calc);
                         break;
@@ -93,28 +89,28 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btMain.setOnNavigationItemSelectedListener(item -> {
+        bnMain.setOnNavigationItemSelectedListener(item -> {
             final int _itemId = item.getItemId();
-            vpMain.setCurrentItem((int) _itemId);
+            vpMain.setCurrentItem(_itemId);
             return true;
         });
     }
 
     private void initializeLogic() {
-        _toolbar.setElevation((float) 4);
+        toolbar.setElevation((float) 4);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(false);
         fgMain.setTabCount(2);
         vpMain.setAdapter(fgMain);
-        btMain.getMenu().add(0, 0, 0, R.string.nav_calc).setIcon(R.drawable.calc);
-        btMain.getMenu().add(0, 1, 0, R.string.nav_vehicles).setIcon(R.drawable.car);
-        if (Objects.requireNonNull(showUp.getString("change", "")).equals("") || Objects.requireNonNull(showUp.getString("change", "")).equals("v1.1")) {
-            upDate.setTitle("Release notes for version 1.2");
-            upDate.setMessage("Fixed about layout gravity\nFixed ThemeLight not being applied in AndroidManifest\nFixed CALCULATE button color in dark mode\nFixed settings layout weird padding\nImproved dark mode colors");
-            upDate.setPositiveButton(R.string.diag_positive, (_dialog, _which) -> showUp.edit().putString("change", "v1.2").commit());
-            upDate.setNegativeButton(R.string.diag_negative, (_dialog, _which) -> {
+        bnMain.getMenu().add(0, 0, 0, R.string.nav_calc).setIcon(R.drawable.calc);
+        bnMain.getMenu().add(0, 1, 0, R.string.nav_vehicles).setIcon(R.drawable.car);
+        if (Objects.requireNonNull(spDgUpShow.getString("change", "")).equals("") || Objects.requireNonNull(spDgUpShow.getString("change", "")).equals("v1.1")) {
+            dgUp.setTitle("Release notes for version 1.2");
+            dgUp.setMessage("Fixed about layout gravity\nFixed ThemeLight not being applied in AndroidManifest\nFixed CALCULATE button color in dark mode\nFixed settings layout weird padding\nImproved dark mode colors");
+            dgUp.setPositiveButton(R.string.diag_positive, (_dialog, _which) -> spDgUpShow.edit().putString("change", "v1.2").commit());
+            dgUp.setNegativeButton(R.string.diag_negative, (_dialog, _which) -> {
             });
-            upDate.setCancelable(false);
-            upDate.create().show();
+            dgUp.setCancelable(false);
+            dgUp.create().show();
         }
     }
 
@@ -128,14 +124,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         final int _id = item.getItemId();
-        final String _title = (String) item.getTitle();
         if (_id == 0) {
-            i.setClass(getApplicationContext(), SettingsActivity.class);
-            startActivity(i);
+            mainIntent.setClass(getApplicationContext(), SettingsActivity.class);
+            startActivity(mainIntent);
         }
         if (_id == 1) {
-            i.setClass(getApplicationContext(), AboutActivity.class);
-            startActivity(i);
+            mainIntent.setClass(getApplicationContext(), AboutActivity.class);
+            startActivity(mainIntent);
         }
         return super.onOptionsItemSelected(item);
     }

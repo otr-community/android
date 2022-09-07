@@ -19,18 +19,15 @@ import com.google.android.material.button.MaterialButton;
 
 public class CalculatorFragmentActivity extends Fragment {
 
-    private final double rTime = 0;
-    private final double rRDistance = 0;
     private double rFDistance = 0;
     private double rSpeed = 0;
     private double rMph = 0;
 
-    private TextView txtResult;
+    private TextView textResult;
     private EditText etTime;
     private EditText etDistance;
 
     private SharedPreferences metricCalc;
-    private SharedPreferences themeEng;
 
     @NonNull
     @Override
@@ -43,14 +40,13 @@ public class CalculatorFragmentActivity extends Fragment {
 
     @SuppressLint("SetTextI18n")
     private void initialize(View _view) {
-        MaterialButton materialbutton1 = _view.findViewById(R.id.materialbutton1);
-        txtResult = _view.findViewById(R.id.txtResult);
+        MaterialButton btCalc = _view.findViewById(R.id.btCalc);
+        textResult = _view.findViewById(R.id.textResult);
         etTime = _view.findViewById(R.id.etTime);
         etDistance = _view.findViewById(R.id.etDistance);
-        metricCalc = getContext().getSharedPreferences("metricCalc", Activity.MODE_PRIVATE);
-        themeEng = getContext().getSharedPreferences("themeEng", Activity.MODE_PRIVATE);
+        metricCalc = requireContext().getSharedPreferences("metricCalc", Activity.MODE_PRIVATE);
 
-        materialbutton1.setOnClickListener(_view1 -> {
+        btCalc.setOnClickListener(_view1 -> {
             try {
                 if (metricCalc.getString("metric", "").equals("")) {
                     int rTime = (int) Float.parseFloat(etTime.getText().toString());
@@ -58,8 +54,8 @@ public class CalculatorFragmentActivity extends Fragment {
                     int rRDistance = (int) Float.parseFloat(etDistance.getText().toString());
                     rFDistance = (rRDistance / 100) * 60;
                     rSpeed = (rFDistance / rTime) * 6;
-                    txtResult.setText(rSpeed + "KPH");
-                    txtResult.setVisibility(View.VISIBLE);
+                    textResult.setText(rSpeed + "KPH");
+                    textResult.setVisibility(View.VISIBLE);
                 } else {
                     if (metricCalc.getString("metric", "").equals("1")) {
                         int rTime = (int) Float.parseFloat(etTime.getText().toString());
@@ -68,12 +64,12 @@ public class CalculatorFragmentActivity extends Fragment {
                         rFDistance = (rRDistance / 100) * 60;
                         rSpeed = (rFDistance / rTime) * 6;
                         rMph = (rSpeed / 1.6);
-                        txtResult.setText(rMph + "MPH");
-                        txtResult.setVisibility(View.VISIBLE);
+                        textResult.setText(rMph + "MPH");
+                        textResult.setVisibility(View.VISIBLE);
                     }
                 }
             } catch (Exception e) {
-                Toast.makeText(getContext().getApplicationContext(), e.toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(requireContext().getApplicationContext(), e.toString(), Toast.LENGTH_SHORT).show();
             }
         });
     }

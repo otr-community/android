@@ -5,13 +5,13 @@
     android:layout_height="match_parent">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/_app_bar"
+        android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/ThemeLight.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/_toolbar"
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
@@ -25,7 +25,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <TextView
-            android:id="@+id/textview1"
+            android:id="@+id/textCat1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -38,7 +38,7 @@
             android:textStyle="bold" />
 
         <LinearLayout
-            android:id="@+id/linear2"
+            android:id="@+id/spinContainer1"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:gravity="center_vertical"
@@ -46,7 +46,7 @@
             android:padding="8dp">
 
             <TextView
-                android:id="@+id/textview2"
+                android:id="@+id/textCalcUnitDesc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
@@ -56,7 +56,7 @@
                 android:textStyle="bold" />
 
             <Spinner
-                android:id="@+id/spinner1"
+                android:id="@+id/spinCalcUnit"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="8dp"
