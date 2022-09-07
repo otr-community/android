@@ -1,4 +1,0 @@
-#Tue Sep 06 12:51:11 BST 2022
-base.0=C\:\\Users\\tiago\\Downloads\\OTRSC\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
