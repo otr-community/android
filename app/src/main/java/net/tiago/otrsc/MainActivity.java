@@ -107,10 +107,10 @@ public class MainActivity extends AppCompatActivity {
         vpMain.setAdapter(fgMain);
         btMain.getMenu().add(0, 0, 0, R.string.nav_calc).setIcon(R.drawable.calc);
         btMain.getMenu().add(0, 1, 0, R.string.nav_vehicles).setIcon(R.drawable.car);
-        if (Objects.requireNonNull(showUp.getString("change", "")).equals("") || Objects.requireNonNull(showUp.getString("change", "")).equals("v1.0")) {
-            upDate.setTitle("Release notes for version 1.1");
-            upDate.setMessage("Added option to use Mph\nAdded dark mode\nAdded release notes\nImproved app design\nImproved accessibility");
-            upDate.setPositiveButton(R.string.diag_positive, (_dialog, _which) -> showUp.edit().putString("change", "v1.1").commit());
+        if (Objects.requireNonNull(showUp.getString("change", "")).equals("") || Objects.requireNonNull(showUp.getString("change", "")).equals("v1.1")) {
+            upDate.setTitle("Release notes for version 1.2");
+            upDate.setMessage("Fixed about layout gravity\nFixed ThemeLight not being applied in AndroidManifest\nFixed CALCULATE button color in dark mode\nFixed settings layout weird padding\nImproved dark mode colors");
+            upDate.setPositiveButton(R.string.diag_positive, (_dialog, _which) -> showUp.edit().putString("change", "v1.2").commit());
             upDate.setNegativeButton(R.string.diag_negative, (_dialog, _which) -> {
             });
             upDate.setCancelable(false);

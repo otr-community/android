@@ -75,7 +75,7 @@
         android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
         android:textColor="?attr/textColor"
         android:textSize="12sp"
-        app:backgroundTint="@color/colorPrimary"
+        app:backgroundTint="?attr/colorAccent"
         app:cornerRadius="8dp" />
 
     <TextView
@@ -83,7 +83,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text=""
         android:textColor="?attr/textColor"
         android:textSize="18sp"
         android:visibility="gone" />
