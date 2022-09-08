@@ -29,11 +29,11 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     private void initialize() {
-        Toolbar _toolbar = findViewById(R.id._toolbar);
-        setSupportActionBar(_toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        _toolbar.setNavigationOnClickListener(_v -> onBackPressed());
+        toolbar.setNavigationOnClickListener(_v -> onBackPressed());
     }
 
     private void initializeLogic() {

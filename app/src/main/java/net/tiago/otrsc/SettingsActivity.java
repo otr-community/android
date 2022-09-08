@@ -42,11 +42,11 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
     private void initialize() {
-        Toolbar _toolbar = findViewById(R.id._toolbar);
-        setSupportActionBar(_toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        _toolbar.setNavigationOnClickListener(_v -> onBackPressed());
+        toolbar.setNavigationOnClickListener(_v -> onBackPressed());
         spinCalcUnit = findViewById(R.id.spinCalcUnit);
         metricCalc = getSharedPreferences("metricCalc", Activity.MODE_PRIVATE);
         spThemeEngine = getSharedPreferences("themeEng", Activity.MODE_PRIVATE);

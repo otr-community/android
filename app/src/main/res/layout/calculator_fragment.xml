@@ -73,7 +73,7 @@
         android:text="@string/calc_button_calculate"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
-        android:textColor="?attr/textColor"
+        android:textColor="?attr/colorOnAccent"
         android:textSize="12sp"
         app:backgroundTint="?attr/colorAccent"
         app:cornerRadius="8dp" />

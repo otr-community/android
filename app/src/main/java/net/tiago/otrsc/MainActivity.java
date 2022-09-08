@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initialize() {
-        toolbar = findViewById(R.id._toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         bnMain.getMenu().add(0, 1, 0, R.string.nav_vehicles).setIcon(R.drawable.car);
         if (Objects.requireNonNull(spDgUpShow.getString("change", "")).equals("") || Objects.requireNonNull(spDgUpShow.getString("change", "")).equals("v1.1")) {
             dgUp.setTitle("Release notes for version 1.2");
-            dgUp.setMessage("Fixed about layout gravity\nFixed ThemeLight not being applied in AndroidManifest\nFixed CALCULATE button color in dark mode\nFixed settings layout weird padding\nImproved dark mode colors");
+            dgUp.setMessage("Fixed OptionsMenu and AppBarLayout styles when on dark mode\nFixed gravity issues on about.xml and settings.xml\nFixed AppTheme not being applied on startup\nImproved light and dark mode colors\nChanged the app icon to suite the new theme\nMade view IDs more cohesive\nOther improvements related to the source code and performance");
             dgUp.setPositiveButton(R.string.diag_positive, (_dialog, _which) -> spDgUpShow.edit().putString("change", "v1.2").commit());
             dgUp.setNegativeButton(R.string.diag_negative, (_dialog, _which) -> {
             });

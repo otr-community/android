@@ -8,14 +8,14 @@
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/ThemeLight.AppBarOverlay">
+        android:theme="?attr/appbarTheme">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/ThemeLight.PopupOverlay" />
+            app:popupTheme="?attr/popupTheme" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
@@ -40,7 +40,7 @@
         <LinearLayout
             android:id="@+id/spinContainer1"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:padding="8dp">

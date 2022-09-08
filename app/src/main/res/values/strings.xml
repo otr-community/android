@@ -27,6 +27,6 @@
     <!-- AboutActivity -->
     <string name="ac_about">About</string>
     <string name="about_app_title">OTR Speed Calculator for Android</string>
-    <string name="app_about_version">Version 1.2 Test Build 2\nBuild date: 07/09/2022</string>
+    <string name="app_about_version">Version 1.2\nBuild date: 07/09/2022</string>
     <string name="about_image_description">App Logo</string>
 </resources>

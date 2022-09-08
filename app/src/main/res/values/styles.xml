@@ -2,30 +2,39 @@
 <resources>
 
     <style name="ThemeLight" parent="Theme.MaterialComponents.Light">
-        <item name="colorAccent">#1775d1</item>
-        <item name="colorPrimary">#1775d1</item>
-        <item name="colorPrimaryDark">#004a9f</item>
-        <item name="colorControlHighlight">#64b5f6</item>
-        <item name="colorControlNormal">#1775d1</item>
+        <item name="colorAccent">#ff5722</item>
+        <item name="colorOnAccent">#fff</item>
+        <item name="colorPrimary">#ff5722</item>
+        <item name="colorPrimaryDark">#c41c00</item>
+        <item name="colorControlHighlight">#ff8a50</item>
+        <item name="colorControlNormal">#ff5722</item>
         <item name="textColor">#000000</item>
         <item name="backgroundColor">#ffffff</item>
+        <item name="colorDisable">#666666</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="popupTheme">@style/ThemeLight.PopupOverlay</item>
+        <item name="appbarTheme">@style/ThemeLight.AppBarOverlay</item>
     </style>
-
+    <style name="ThemeLight.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
     <style name="ThemeLight.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
 
-    <style name="ThemeLight.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
-
     <style name="ThemeDark" parent="Theme.MaterialComponents">
-        <item name="colorAccent">#4FA3F6</item>
-        <item name="colorPrimary">#1775d1</item>
-        <item name="colorPrimaryDark">#004a9f</item>
-        <item name="colorControlHighlight">#64b5f6</item>
-        <item name="colorControlNormal">#4FA3F6</item>
+        <item name="colorAccent">#ffab91</item>
+        <item name="colorOnAccent">#000</item>
+        <item name="colorPrimary">#1f1f1f</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorControlHighlight">#ffddc1</item>
+        <item name="colorControlNormal">#ffab91</item>
         <item name="textColor">#ffffff</item>
-        <item name="backgroundColor">#242424</item>
+        <item name="backgroundColor">#1f1f1f</item>
+        <item name="colorDisable">#a5a5a5</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="popupTheme">@style/Theme.PopupOverlay</item>
+        <item name="appbarTheme">@style/Theme.AppBarOverlay</item>
     </style>
+    <style name="Theme.PopupOverlay" parent="ThemeOverlay.MaterialComponents" />
+    <style name="Theme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
 </resources>
