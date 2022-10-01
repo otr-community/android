@@ -12,7 +12,7 @@
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="true"
             android:hardwareAccelerated="true"
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="user"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,13 +23,7 @@
             android:name=".SettingsActivity"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:hardwareAccelerated="true"
-            android:screenOrientation="fullSensor"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".AboutActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:hardwareAccelerated="true"
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="user"
             android:windowSoftInputMode="stateHidden" />
 
         <uses-library

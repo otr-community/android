@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="colorAccent" format="color" />
+    <attr name="colorBar" format="color" />
     <attr name="colorOnAccent" format="color" />
     <attr name="colorDisable" format="color" />
     <attr name="backgroundColor" format="color" />

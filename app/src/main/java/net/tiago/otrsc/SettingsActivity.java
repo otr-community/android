@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -23,6 +25,8 @@ public class SettingsActivity extends AppCompatActivity {
 
     private SharedPreferences metricCalc;
     private SharedPreferences spThemeEngine;
+
+    private TextView textCalcUnitDesc;
 
     @Override
     protected void onCreate(Bundle _savedInstanceState) {
@@ -43,13 +47,17 @@ public class SettingsActivity extends AppCompatActivity {
 
     private void initialize() {
         Toolbar toolbar = findViewById(R.id.toolbar);
+        LinearLayout metricContainer1 = findViewById(R.id.metricContainer1);
         setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         toolbar.setNavigationOnClickListener(_v -> onBackPressed());
         spinCalcUnit = findViewById(R.id.spinCalcUnit);
+        textCalcUnitDesc = findViewById(R.id.textCalcUnitDesc);
         metricCalc = getSharedPreferences("metricCalc", Activity.MODE_PRIVATE);
         spThemeEngine = getSharedPreferences("themeEng", Activity.MODE_PRIVATE);
+
+        metricContainer1.setOnClickListener(v -> findViewById(R.id.spinCalcUnit).performClick());
 
         spinCalcUnit.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -57,10 +65,12 @@ public class SettingsActivity extends AppCompatActivity {
                 if (_param3 == 0) {
                     metricCalc.edit().putString("metric", "").apply();
                     spinCalcUnit.setSelection(0);
+                    textCalcUnitDesc.setText(R.string.settings_metric_1);
                 }
                 if (_param3 == 1) {
                     metricCalc.edit().putString("metric", "1").apply();
                     spinCalcUnit.setSelection(1);
+                    textCalcUnitDesc.setText(R.string.settings_metric_2);
                 }
             }
 
@@ -79,9 +89,11 @@ public class SettingsActivity extends AppCompatActivity {
         ((BaseAdapter) spinCalcUnit.getAdapter()).notifyDataSetChanged();
         if (metricCalc.getString("metric", "").equals("")) {
             spinCalcUnit.setSelection(0);
+            textCalcUnitDesc.setText(R.string.settings_metric_1);
         } else {
             if (metricCalc.getString("metric", "").equals("1")) {
                 spinCalcUnit.setSelection(1);
+                textCalcUnitDesc.setText(R.string.settings_metric_2);
             }
         }
     }

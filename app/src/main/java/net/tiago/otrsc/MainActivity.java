@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,11 +25,13 @@ import java.util.Objects;
 public class MainActivity extends AppCompatActivity {
 
     private final Intent mainIntent = new Intent();
+    private final Intent goSource = new Intent();
     private Toolbar toolbar;
     private ViewPager vpMain;
     private BottomNavigationView bnMain;
     private FgMainFragmentAdapter fgMain;
     private AlertDialog.Builder dgUp;
+    private AlertDialog.Builder dgAbout;
     private SharedPreferences spDgUpShow;
     private SharedPreferences spThemeEngine;
 
@@ -103,10 +106,10 @@ public class MainActivity extends AppCompatActivity {
         vpMain.setAdapter(fgMain);
         bnMain.getMenu().add(0, 0, 0, R.string.nav_calc).setIcon(R.drawable.calc);
         bnMain.getMenu().add(0, 1, 0, R.string.nav_vehicles).setIcon(R.drawable.car);
-        if (Objects.requireNonNull(spDgUpShow.getString("change", "")).equals("") || Objects.requireNonNull(spDgUpShow.getString("change", "")).equals("v1.1")) {
-            dgUp.setTitle("Release notes for version 1.2");
-            dgUp.setMessage("Fixed OptionsMenu and AppBarLayout styles when on dark mode\nFixed gravity issues on about.xml and settings.xml\nFixed AppTheme not being applied on startup\nImproved light and dark mode colors\nChanged the app icon to suite the new theme\nMade view IDs more cohesive\nOther improvements related to the source code and performance");
-            dgUp.setPositiveButton(R.string.diag_positive, (_dialog, _which) -> spDgUpShow.edit().putString("change", "v1.2").commit());
+        if (Objects.requireNonNull(spDgUpShow.getString("change", "")).equals("") || Objects.requireNonNull(spDgUpShow.getString("change", "")).equals("v1.2")) {
+            dgUp.setTitle(R.string.version_header);
+            dgUp.setMessage(R.string.version_notes);
+            dgUp.setPositiveButton(R.string.diag_positive, (_dialog, _which) -> spDgUpShow.edit().putString("change", "v1.3").commit());
             dgUp.setNegativeButton(R.string.diag_negative, (_dialog, _which) -> {
             });
             dgUp.setCancelable(false);
@@ -129,8 +132,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(mainIntent);
         }
         if (_id == 1) {
-            mainIntent.setClass(getApplicationContext(), AboutActivity.class);
-            startActivity(mainIntent);
+            AlertDialog.Builder dgAbout = new AlertDialog.Builder(MainActivity.this);
+            goSource.setAction(Intent.ACTION_VIEW);
+            goSource.setData(Uri.parse("https://github.com/OTR-Speed-Calculator/android"));
+            dgAbout.setTitle(R.string.diag_about_title);
+            dgAbout.setMessage(R.string.diag_about_description);
+            dgAbout.setPositiveButton(R.string.diag_positive_btn, (_dialog, _which) -> startActivity(goSource));
+            dgAbout.setNegativeButton(R.string.diag_negative, (_dialog, _which) -> {
+            });
+            dgAbout.setCancelable(true);
+            dgAbout.create().show();
         }
         return super.onOptionsItemSelected(item);
     }
