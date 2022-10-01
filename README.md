@@ -8,6 +8,6 @@
 [![Downloads](https://img.shields.io/github/downloads/OTR-Speed-Calculator/android/total)](https://github.com/OTR-Speed-Calculator/android/releases)
 [![Version](https://img.shields.io/github/v/release/OTR-Speed-Calculator/android?display_name=tag)](https://github.com/OTR-Speed-Calculator/android/releases/latest)
 
-Tool to work out the top speed of vehicles in OTR [Android Binary]
+Tool to work out the top speed of vehicles in OTR [Android Source]
 
 </div>
