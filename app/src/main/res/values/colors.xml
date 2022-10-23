@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="colorPrimary">#FB8C00</color>
+    <color name="colorPrimaryDark">#EF6C00</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorOnAccent">#FFFFFF</color>
+    <color name="colorToolbar">#FB8C00</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorText">#000000</color>
+    <color name="colorPrimaryContainer">#F5F5F5</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="colorPrimary_dark">#FFB74D</color>
+    <color name="colorPrimaryDark_dark">#000000</color>
+    <color name="colorAccent_dark">#F06292</color>
+    <color name="colorOnAccent_dark">#000000</color>
+    <color name="colorToolbar_dark">#212121</color>
+    <color name="colorBackground_dark">#303030</color>
+    <color name="colorText_dark">#FFFFFF</color>
+    <color name="colorPrimaryContainer_dark">#212121</color>
+</resources>

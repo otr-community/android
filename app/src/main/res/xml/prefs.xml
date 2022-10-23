@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="Calculator Settings"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/metric_list"
+            android:entryValues="@array/metric_values"
+            android:key="default_metric"
+            android:summary="%1$s"
+            android:title="Default Metric"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

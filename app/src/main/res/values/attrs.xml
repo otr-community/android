@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorAccent" format="color" />
+    <attr name="colorOnAccent" format="color" />
+    <attr name="colorToolbar" format="color" />
+    <attr name="colorBackground" format="color" />
+    <attr name="colorText" format="color" />
+
+    <attr name="popupTheme" format="reference" />
+    <attr name="appbarTheme" format="reference" />
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- MainActivity -->
+    <string name="fragment_calc">Calculadora</string>
+    <string name="fragment_vehicles">Veículos</string>
+    <string name="nav_calc">Calculadora</string>
+    <string name="nav_vehicles">Veículos</string>
+    <string name="diag_positive">OK</string>
+    <string name="diag_negative">Cancelar</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_about">Sobre</string>
+
+    <!-- AboutDialog -->
+    <string name="diag_about_title">Sobre</string>
+    <string name="diag_about_description">Versão 1.3\n\nFerramenta para calcular a velocidade máxima dos veículos em OTR\n\nCréditos:\nMadebotix por ter criado este projecto.\nTiago Carmo (ReduxFlakes) por ter feito o porte para Android</string>
+    <string name="diag_positive_btn">Código Fonte</string>
+
+    <!-- CalculatorFragmentActivity -->
+    <string name="calc_edittext1_hint">Tempo gasto (segundos)</string>
+    <string name="calc_edittext2_hint">Distância (m) (excluindo  aceleração)</string>
+    <string name="calc_button_calculate">calcular</string>
+
+    <!-- VehiclesFragmentActivity -->
+    <string name="vehicle_soon">Em breve</string>
+
+    <!-- SettingsActivity -->
+    <string name="ac_settings">Configurações</string>
+    <string name="settings_cat_calc">Configurações da calculadora</string>
+    <string name="settings_calc_unit">Usar uma unidade de comprimento diferente</string>
+    <string name="metric_1">KPH</string>
+    <string name="metric_2">MPH</string>
+    <string name="vpmain_description">Main ViewPager</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeLight" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnAccent">@color/colorOnAccent</item>
+        <item name="colorToolbar">@color/colorToolbar</item>
+        <item name="colorBackground">@color/colorBackground</item>
+        <item name="colorText">@color/colorText</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="popupTheme">@style/ThemeLight.PopupOverlay</item>
+        <item name="appbarTheme">@style/ThemeLight.AppBarOverlay</item>
+
+    </style>
+
+    <style name="ThemeLight.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="ThemeLight.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="ThemeDark" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/colorPrimary_dark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_dark</item>
+        <item name="colorAccent">@color/colorAccent_dark</item>
+        <item name="colorOnAccent">@color/colorOnAccent_dark</item>
+        <item name="colorToolbar">@color/colorToolbar_dark</item>
+        <item name="backgroundColor">@color/colorBackground_dark</item>
+        <item name="colorText">@color/colorText_dark</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer_dark</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="popupTheme">@style/Theme.PopupOverlay</item>
+        <item name="appbarTheme">@style/Theme.AppBarOverlay</item>
+    </style>
+
+    <style name="Theme.PopupOverlay" parent="ThemeOverlay.MaterialComponents" />
+
+    <style name="Theme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+</resources>
