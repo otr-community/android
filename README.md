@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/OTR-Speed-Calculator/android/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"  height="116px" width="116px">
+<img src="https://github.com/OTR-Speed-Calculator/android/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
 
 # OTR SC (Android Source Code)
 
