@@ -1,0 +1,1 @@
+<i>OTR SC</i> is a tool to work out the top speed of vehicles in OTR. It lets you calculate the average speed.
