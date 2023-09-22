@@ -27,7 +27,7 @@ OTR Speed Calculator is a open source app for Android and Windows that helps you
 ## Download
 Compiled binaries are available as GitHub release and on IzzyOnDroid repos.
 
-<a href=""><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" width="200px"></a>
+<a href="https://apt.izzysoft.de/fdroid/index/apk/org.otrsc.android" target=_blank><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" width="200px"></a>
 
 ## Thanks
 
